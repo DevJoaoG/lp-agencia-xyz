@@ -121,7 +121,7 @@ body {
 
 .about .item .btn-know-more {
     font-size: 1.6rem;
-    text-align: center;
+    align-self: flex-start;
 }
 
 .about .item .btn-know-more:hover {
@@ -143,6 +143,9 @@ body {
         text-align: center;
     }
 
+    .about .item .btn-know-more {
+        align-self: center;
+    }
     .about {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
